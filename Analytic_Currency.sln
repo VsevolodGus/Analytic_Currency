@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticFinanceMarket", "AnalyticFinanceMarket\AnalyticFinanceMarket.csproj", "{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytic.DataBase", "Analytic.DataBase\Analytic.DataBase.csproj", "{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC8B88B0-7259-44C0-BADD-0D71013EA518}
+	EndGlobalSection
+EndGlobal
