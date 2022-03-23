@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticFinanceMarket", "AnalyticFinanceMarket\AnalyticFinanceMarket.csproj", "{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticFinanceMarket", "AnalyticFinanceMarket\AnalyticFinanceMarket.csproj", "{B55BD8E4-FA7C-4BBE-A8C4-79DA68B02A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytic.DataBase", "Analytic.DataBase\Analytic.DataBase.csproj", "{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytic.DataBase", "Analytic.DataBase\Analytic.DataBase.csproj", "{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytic.Domain", "Analytic.Domain\Analytic.Domain.csproj", "{1F8FA7CA-D14C-41D5-BA3A-DFDE6FEAD9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytic.UseAPI", "Analytic.UseAPI\Analytic.UseAPI.csproj", "{35E7378E-3618-4DBE-80F0-2257B960260C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B78B41-9711-4D3C-8451-10BCBEDBEF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8FA7CA-D14C-41D5-BA3A-DFDE6FEAD9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8FA7CA-D14C-41D5-BA3A-DFDE6FEAD9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8FA7CA-D14C-41D5-BA3A-DFDE6FEAD9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8FA7CA-D14C-41D5-BA3A-DFDE6FEAD9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E7378E-3618-4DBE-80F0-2257B960260C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E7378E-3618-4DBE-80F0-2257B960260C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E7378E-3618-4DBE-80F0-2257B960260C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E7378E-3618-4DBE-80F0-2257B960260C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

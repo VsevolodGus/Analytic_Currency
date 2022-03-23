@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Analytic.DataBase.Models
 {
@@ -15,7 +12,9 @@ namespace Analytic.DataBase.Models
         public long Nominal { get; init; }
 
         public DateTime DateTime { get; init; }
-        
+
         public decimal Value { get; init; }
+
+        public virtual CurrencyDto Currency { get; set; }
     }
 }

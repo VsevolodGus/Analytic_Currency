@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
+using Analytic.DataBase.Models;
 
 namespace AnalyticFinanceMarket.Controllers
 {
@@ -49,7 +50,7 @@ namespace AnalyticFinanceMarket.Controllers
         [Route("getcurrency")]
         public async Task<IActionResult> GetDataByCurrency()
         {
-            string result = "";
+            string stringJson = "";
             string URL = "http://api.currencylayer.com/live?access_key=930fe408ce1507a06f64a94ce53ddb53&currencies=EUR,GBP,CAD,PLN&source=USD&format=1";
             var client = new HttpClient();
             client.BaseAddress = new Uri(URL);
@@ -59,8 +60,17 @@ namespace AnalyticFinanceMarket.Controllers
             var responseMessage = await client.GetAsync(client.BaseAddress);
             if (responseMessage.IsSuccessStatusCode)
             {
-                result = responseMessage.Content.ReadAsStringAsync().Result;
-                var resultObj = JsonConvert.DeserializeObject<Data>(result);
+                stringJson = responseMessage.Content.ReadAsStringAsync().Result;
+                var resultObj = JsonConvert.DeserializeObject<Data>(stringJson);
+                DateTime date = DateTime.UtcNow;
+                TimeSpan asd = new TimeSpan(resultObj.timestamp);
+                DateTime dateTime = date.AddTicks(asd.Ticks);
+
+                //var zcx = new CurrencyDataDto()
+                //{
+                //    Nominal = resultObj.source,
+
+                //};
             }
             
             client.Dispose();
