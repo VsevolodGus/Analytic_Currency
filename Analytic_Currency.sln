@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytic.API", "Analytic.API\Analytic.API.csproj", "{3DFF8C7D-5AA0-4F91-9D25-EB8AFB3A780F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytic.API", "Analytic.API\Analytic.API.csproj", "{3DFF8C7D-5AA0-4F91-9D25-EB8AFB3A780F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytic.UseAPI.CurrencyLayer", "Analytic.UseAPI.CurrencyLayer\Analytic.UseAPI.CurrencyLayer.csproj", "{6948E335-53F4-41CB-A9A6-B6710696F5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytic.Domain", "Analytic.Domain\Analytic.Domain.csproj", "{1C5555B0-7F3F-4266-B54E-2EA154467DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3DFF8C7D-5AA0-4F91-9D25-EB8AFB3A780F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DFF8C7D-5AA0-4F91-9D25-EB8AFB3A780F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DFF8C7D-5AA0-4F91-9D25-EB8AFB3A780F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6948E335-53F4-41CB-A9A6-B6710696F5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6948E335-53F4-41CB-A9A6-B6710696F5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6948E335-53F4-41CB-A9A6-B6710696F5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6948E335-53F4-41CB-A9A6-B6710696F5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5555B0-7F3F-4266-B54E-2EA154467DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5555B0-7F3F-4266-B54E-2EA154467DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5555B0-7F3F-4266-B54E-2EA154467DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5555B0-7F3F-4266-B54E-2EA154467DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
